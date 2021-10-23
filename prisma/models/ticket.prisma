@@ -1,0 +1,15 @@
+type Ticket {
+  id: ID! @id
+  today: DateTime! @createdAt
+  cinema: Int!
+  clientType: String!
+  price: Int!
+  movie: String!
+  showtime: DateTime!
+  row: String!
+  seat: Int!
+  price: Double! 
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+  
+}

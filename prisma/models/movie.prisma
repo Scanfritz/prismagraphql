@@ -1,0 +1,14 @@
+type Movie {
+  id: ID! @id
+  title: String!
+  description: String!
+  director: String!
+  topCast: [topCast]!
+  genres: [genres]!
+  certificate: String!
+  runtime: DateTime!
+  releaseDate: DateTime!
+  isActive: Boolean! @default(value: true)
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+}

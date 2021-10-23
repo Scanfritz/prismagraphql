@@ -1,4 +1,5 @@
 import { Subscription } from './Subscription'
+import { Ticket } from './Ticket'
 
 const path = require("path");
 const { mergeResolvers, fileLoader } = require("merge-graphql-schemas");
@@ -13,4 +14,5 @@ export default {
   Query,
   Mutation,
   Subscription,
+  Ticket,
 };

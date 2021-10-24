@@ -43,3 +43,5 @@ $ npm install
 - $ git remote -v
 - $ git remote set-url origin
 - $ git push -u master
+- $ git branch
+- $ git checkout
